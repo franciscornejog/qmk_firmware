@@ -1,6 +1,12 @@
+AUTO_SHIFT_ENABLE = yes
+BOOTLOADER      = atmel-dfu
+COMBO_ENABLE = yes
+COMMAND_ENABLE = no
+CONSOLE_ENABLE = no
 MOUSEKEY_ENABLE = yes    # Mouse keys
-RGBLIGHT_ENABLE = yes    # Enable WS2812 RGB underlight.
+MUSIC_ENABLE = no
 OLED_ENABLE     = yes
 OLED_DRIVER     = SSD1306
 LTO_ENABLE      = yes
-BOOTLOADER      = atmel-dfu
+RGBLIGHT_ENABLE = no    # Enable WS2812 RGB underlight.
+SPACE_CADET_ENABLE = no
